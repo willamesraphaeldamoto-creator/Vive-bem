@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Vive Bem",
+    "slug": "vive-bem",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "scheme": "vivebem",
+    "android": {
+      "package": "com.appfamilia.br",
+      "permissions": [
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "defaultChannel": "lembretes",
+          "enableBackgroundRemoteNotifications": false
+        }
+      ]
+    ]
+  }
+}
